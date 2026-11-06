@@ -22,3 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Folder roboczy Mavena (skompilowane klasy, pliki .jar)
+target/
+
+# Ustawienia środowiska IntelliJ IDEA
+.idea/
+*.iml
+
+# Pliki systemowe (Windows / macOS)
+Thumbs.db
+.DS_Store
+
+# Pliki wynikowe generowane przez kod (nie trzymamy ich w repozytorium)
+wynik.xlsx
+
+# Ukryte pliki tymczasowe tworzone przez Excela, gdy otwierasz arkusz
+~$*.xlsx
